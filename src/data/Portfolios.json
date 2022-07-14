@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "title":"Threads",
+        "category":"Illustration",
+        "thumbnail":"assets/img/portfolio/1.jpg"
+    },
+    {
+        "id":2,
+        "title":"Explore",
+        "category":"Graphic Design",
+        "thumbnail":"assets/img/portfolio/2.jpg"
+    },
+    {
+        "id":3,
+        "title":"Finish",
+        "category":"Identity",
+        "thumbnail":"assets/img/portfolio/3.jpg"
+    },
+    {
+        "id":4,
+        "title":"Lines",
+        "category":"Branding",
+        "thumbnail":"assets/img/portfolio/4.jpg"
+    },
+    {
+        "id":5,
+        "title":"Southwest",
+        "category":"Website Design",
+        "thumbnail":"assets/img/portfolio/5.jpg"
+    },
+    {
+        "id":6,
+        "title":"Window",
+        "category":"Photography",
+        "thumbnail":"assets/img/portfolio/6.jpg"
+    }
+    
+]

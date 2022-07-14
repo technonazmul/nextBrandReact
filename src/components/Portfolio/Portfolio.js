@@ -1,4 +1,4 @@
-const Portfolio = () => {
+const Portfolio = ({data}) => {
     return (
         <div class="col-lg-4 col-sm-6 mb-4">
             <div class="portfolio-item">
@@ -6,11 +6,11 @@ const Portfolio = () => {
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                     </div>
-                    <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                    <img class="img-fluid" src={`${data.thumbnail}`} alt="..." />
                 </a>
                 <div class="portfolio-caption">
-                    <div class="portfolio-caption-heading">Threads</div>
-                    <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                    <div class="portfolio-caption-heading">{data.title}</div>
+                    <div class="portfolio-caption-subheading text-muted">{data.category}</div>
                 </div>
             </div>
         </div>
